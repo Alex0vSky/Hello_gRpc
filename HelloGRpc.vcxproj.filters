@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MsvcGenerated">
+      <UniqueIdentifier>{145513ed-a132-40bd-a4dc-74470f45f55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_pch">
+      <UniqueIdentifier>{83c8ee4b-eba3-4316-8cfc-edd38c802025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\need">
+      <UniqueIdentifier>{28d40e24-c16b-4433-8dcd-8594ee4b0538}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MsvcGenerated\stdafx.cpp">
+      <Filter>_pch</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloGRpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\ext\transport\chttp2\client\chttp2_connector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\ext\transport\inproc\inproc_transport.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\cpp\server\server_cc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\ext\transport\chttp2\transport\chttp2_transport.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\ext\transport\chttp2\transport\writing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\surface\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\surface\channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\ext\transport\chttp2\server\chttp2_server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\resource_quota\api.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\cpp\server\server_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\surface\call.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\channel\channel_stack_builder_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\channel\channel_stack.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\surface\call_trace.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resource\protos\helloworld.grpc.pb.cc">
+      <Filter>Source Files\need</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resource\protos\helloworld.pb.cc">
+      <Filter>Source Files\need</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\test\cpp\util\proto_reflection_descriptor_database.cc">
+      <Filter>Source Files\need</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\cpp\thread_manager\thread_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\iomgr\exec_ctx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\transport\handshaker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\surface\completion_queue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\iomgr\pollset_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\iomgr\tcp_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_L\net\gRpcSource\grpc-1.58.2\src\core\lib\iomgr\socket_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\MsvcGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MsvcGenerated\framework.h">
+      <Filter>Header Files\MsvcGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MsvcGenerated\targetver.h">
+      <Filter>Header Files\MsvcGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MsvcGenerated\stdafx.h">
+      <Filter>_pch</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\HelloGRpc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\protos\helloworld.proto">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\_L\net\gRpcSource\grpc-1.58.2\examples\protos\keyvaluestore.proto" />
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
